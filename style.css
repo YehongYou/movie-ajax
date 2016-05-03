@@ -1,0 +1,35 @@
+body{
+  background-color:#46a7f2;
+  text-align: center;
+}
+
+input{
+  height: 30px;
+  width: 200px;
+}
+
+button{
+  height: 40px;
+}
+
+.movie_list p{
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  width: 60%;
+  transition: 1s;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movie_list p:hover{
+  transform:translateY(0.3em);
+}
+
+
+.movie_list img{
+  height: 100%;
+  margin-left: 10px;
+  vertical-align: middle;
+}
