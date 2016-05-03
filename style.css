@@ -12,7 +12,7 @@ button{
   height: 40px;
 }
 
-.movie_list p{
+.movie_list .movie{
   height: 50px;
   background-color: white;
   text-align: center;
@@ -23,7 +23,7 @@ button{
   margin-right: auto;
 }
 
-.movie_list p:hover{
+.movie_list .movie:hover{
   transform:translateY(0.3em);
 }
 
@@ -32,4 +32,9 @@ button{
   height: 100%;
   margin-left: 10px;
   vertical-align: middle;
+}
+
+.movieDetals {
+  height: auto;
+  background-color: yellow;
 }
